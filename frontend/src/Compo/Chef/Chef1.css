@@ -1,0 +1,47 @@
+.chef-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align cards */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+  }
+  
+  .chef-card {
+    background-color: white; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    overflow: hidden; /* Hide overflow */
+    transition: transform 0.3s ease; /* Animation effect */
+    width: 250px; /* Card width */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .chef-card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  .chef-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 0.3s ease; /* Fade effect on hover */
+  }
+  
+  .chef-card:hover .chef-image {
+    opacity: 0.8; /* Change opacity on hover */
+  }
+  
+  .chef-info {
+    padding: 15px; /* Padding for text */
+    text-align: center; /* Center align text */
+  }
+  
+  h3 {
+    margin: 10px 0; /* Margin for heading */
+    font-size: 1.2em; /* Font size for name */
+  }
+  
+  p {
+    margin: 0; /* Remove default margin */
+    color: #555; /* Dark gray for text */
+  }
+  

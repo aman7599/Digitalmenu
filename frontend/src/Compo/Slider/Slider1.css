@@ -1,0 +1,27 @@
+.carousel-image-container {
+    display: flex;
+    justify-content: center; /* Centering the image */
+    align-items: center; /* Centering vertically */
+    height: 400px; /* Adjust the height as needed */
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); Shadow effect */
+    overflow: hidden; /* Prevent overflow if the image is larger */
+    margin: 20px 0px;
+    
+  }
+  
+  .carousel-image-container img {
+    max-width: 80%; /* Ensure the image doesn't overflow the container */
+    max-height: 100%; /* Maintain the aspect ratio */
+    object-fit: cover; /* Cover the container */
+    transition: transform 0.5s ease; /* Smooth transform on hover */
+  }
+  
+  .carousel-image-container img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .slde{
+    margin: 10px;
+  }
+
+  

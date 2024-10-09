@@ -1,0 +1,110 @@
+
+  
+  
+  img {
+    /* width: 90rem;     */
+    width: 62rem;
+    height: 25rem;
+    /* height: 150px; */
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+.Card{
+    height: 34vw;
+    margin: 30px auto;
+    background: url('https://www.shutterstock.com/image-photo/concept-oriental-cuisine-uzbek-food-600nw-1748580797.jpg') no-repeat center center;
+    background-size: contain;
+
+}
+.Card-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width:50%;
+    left: 13rem;
+    top: 25%;
+
+}
+.Card-text h1 {
+
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw , 22px);
+
+}
+
+.Card-text p {
+    color: white;
+    font-size: 22px;
+
+}
+.Card-text button {
+    border: 2px solid white;
+    color :white;
+    padding: 1vw 2.3vw;
+    background-color: transparent;
+    font-size: max(1vw 13px);
+    border-radius: 50px;
+}
+
+
+.welcome-paragraph {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  text-align: center;
+  color: black;
+  line-height: 1.6;
+  padding: 1rem;
+  /* background-color:red; */
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(252, 6, 6, 0.1); */
+  margin: 11px 8rem;
+}
+
+
+/* Cards.css */
+
+.cards-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin: 0;
+  color: #4b2e83;
+}
